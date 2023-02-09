@@ -1,38 +1,203 @@
+*{
+  border: 0cm;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  overflow: hidden;
+  padding:  1% 10% ;
+  border-color: black ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 0, 0);
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+.agreement{
+  margin: 3%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  text-align: left;
+  font-size: x-large;
 }
+
+.password {
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.userdetails{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  float: left;
+}
+
+#amount{
+  width: 45%;
+  margin: 2%;
+}
+
+#frequency{
+  width: 45%;
+  margin: 2%;
+}
+
+#firstName{
+  width: 30%;
+  margin: 1%;
+}
+
+#middleName{
+  width: 30%;
+  margin: 1%;
+}
+
+#lastName{
+  width: 30%;
+  margin: 1%;
+}
+
+.gender{
+  margin: 1%;
+}
+#genderid{
+  width: 45%;
+  margin: 1%;
+}
+
+#dob{
+  width: 30%;
+  margin: 1%;
+}
+
+#email{
+  width: 30%;
+  margin: 1%;
+}
+
+#mobile{
+  width: 30%;
+  margin: 1%;
+}
+
+#relationship{
+  width: 46%;
+  margin: 1%
+}
+
+#dependents{
+  width: 46%;
+  margin: 1%;
+  margin-right: 15%;
+}
+
+#postCode{
+  width: 30%;
+  margin: 1%;
+}
+
+#address{
+  width: 20%;
+  margin: 1%;
+  float: left;
+}
+
+
+
+#residential-status{
+  width: 40%;
+  margin: 1%;
+  margin-bottom: 10%;
+}
+
+#timeatthisaddress{
+  width: 40%;
+  margin: 1%;
+}
+
+#income{
+  width: 30%;
+  margin: 1%;
+}
+
+#pay-freq{
+  width: 30%;
+  margin: 1%;
+}
+
+#paydate{
+  width: 30%;
+  margin: 1%;
+}
+
+#rent{
+  width: 50%;
+  margin: 1%;
+}
+
+#employment{
+  width: 30%;
+  margin: 1%;
+}
+
+#relationship{
+  width: 30%;
+  margin: 1%;
+}
+
+#accnumber{
+  width: 30%;
+  margin: 1%;
+}
+
+#sortcode{
+  width: 30%;
+  margin: 1%;
+}
+
+#occupation{
+  width: 30%;
+  margin: 1%;
+}
+
+.gender{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px 5px 5px 0px ;
+}
+
+.checkbox{
+  text-align: center;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:30px;
+  background:#ccc;
+  text-align: center;
+  font-size: larger;
+}
+
+
+input, label {
+  margin: 5px 5px;
+}
+
+
+Button{
+  float: right;
+  margin: 5%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
