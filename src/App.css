@@ -46,6 +46,12 @@
   margin: 2%;
 }
 
+#loanpurpose{
+  width: 45%;
+  margin: 2%;
+  margin-right: 70%;
+}
+
 #firstName{
   width: 30%;
   margin: 1%;

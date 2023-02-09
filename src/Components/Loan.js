@@ -34,9 +34,22 @@ const Loan = () => {
                         <MenuItem  value="20 years">20 years</MenuItem>
                     </Select>
       </div>
+
+      <div className="userdetails" id='loanpurpose'>
+                    <label className="form__label">Select Your Loan Purpose </label>
+                    <Select value = {userData['loanpurpose']} onChange = {(e) => setUserData ({...userData , "loanpurpose" : e.target.value})} autoWidth required>
+                        <MenuItem  value="holiday">Holiday</MenuItem>
+                        <MenuItem  value="car">Car / Vehicle</MenuItem>
+                        <MenuItem  value="debt">Debt Consolidation</MenuItem>
+                        <MenuItem  value="home">Home Improvement</MenuItem>
+                        <MenuItem  value="wedding">Wedding</MenuItem>
+                        <MenuItem  value="other">Other</MenuItem>
+                    </Select>
+      </div>
       </div>
       <Button type='submit' variant="contained" onClick={()=>setStep(2)}  style={{backgroundColor: 'rgb(255, 0, 0)', color: '#FFFFFF', padding: "11px 0px" , maxWidth: '200px', maxHeight: '30px', minWidth: '80px', minHeight: '40px' , margin: "20px" }}>Next</Button>
     </div>
+    
   )
 }
 
